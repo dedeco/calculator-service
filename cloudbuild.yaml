@@ -21,3 +21,7 @@ steps:
       - '--region=us-central1'
       - '--service-account=calculator-service-sa@andresousa-puc.iam.gserviceaccount.com'
       - '--set-secrets=CALCULATOR_SECRET=calculator-secret:latest'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+
